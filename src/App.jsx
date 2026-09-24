@@ -1,3 +1,4 @@
+import Vitrine from './components/Vitrine';
 export default function App() {
   return (
     <div className="layout-base">
@@ -8,14 +9,12 @@ export default function App() {
       </header>
 
       {/* 2. Área do Componente Hero/Vitrine */}
-      <main>
-        <section>
-          <h1>Conteúdo Principal da Barbearia</h1>
-        </section>
-      </main>
+      
+      <Vitrine />
 
       {/* 3. Área do Componente Footer */}
       <footer>
+        
         <p>Rodapé BarberSaaS (Footer)</p>
       </footer>
 
